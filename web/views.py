@@ -1,11 +1,7 @@
 from django.shortcuts import render, get_object_or_404, redirect
-from django.urls import reverse
-from django.db.models import FilteredRelation, Q, Count
 from django.http import JsonResponse
 from django.views.decorators.http import require_POST
 from django.views.decorators.csrf import csrf_exempt
-import json
-from .forms import SearchForm
 from .models import Site, Category, SmallCategory
 
 
