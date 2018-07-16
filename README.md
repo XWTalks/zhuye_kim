@@ -10,7 +10,7 @@
 
 - 安装Python3和必备组件、库
 
-Centos7系统可以参考文章：http://blog.51cto.com/wenguonideshou/2083301
+Centos7系统安装Python3可以参考文章：http://blog.51cto.com/wenguonideshou/2083301
 
 ```bash
 yum install git screen -y
@@ -36,6 +36,8 @@ screen -S zhuye
 python3 manage.py runserver 0.0.0.0:80
 ```
 
-- 后台地址为http://ip/admin，管理员用户名admin密码12345678@
+后台地址为http://ip/admin，管理员用户名admin密码12345678@
+
+后台的“大分类”指的是常用/男生/女生 这一行，“小分类”指的是热门/资讯/影音/邮箱的这一列
 
 **获取更多帮助请[加群](http://shang.qq.com/wpa/qunwpa?idkey=d119da6023cc49729a61139ca4b8bb0ee770d8d9a89383939c4a45159f82bc6d)**
