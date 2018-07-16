@@ -23,7 +23,7 @@ pip3 install django pymysql
 git clone https://github.com/wenguonideshou/zhuye_kim
 cd zhuye_kim
 python3 manage.py makemigrations
-python3 manage.py migrarte
+python3 manage.py migrate
 ```
 
 - 安装mysql/mariadb，新建数据库名为zhuye，导入zhuye.sql
