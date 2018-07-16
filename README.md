@@ -17,6 +17,10 @@ yum install git screen -y
 pip3 install django pymysql
 ```
 
+- 安装mysql/mariadb，新建数据库名为zhuye
+
+- 修改zhuye_kim/settings.py中的DATABASES对应的数据库信息（只需要修改数据库密码）
+
 - 下载源码、建表
 
 ```bash
@@ -26,9 +30,7 @@ python3 manage.py makemigrations
 python3 manage.py migrate
 ```
 
-- 安装mysql/mariadb，新建数据库名为zhuye，导入zhuye.sql
-
-- 修改zhuye_kim/settings.py中的DATABASES对应的数据库信息（只需要修改数据库密码）
+- 导入zhuye.sql
 
 - 运行网站
 ```bash
