@@ -31,7 +31,6 @@ def sitelist(request):
 
 
 def search(request):
-    print(request.GET)
     q = request.GET.get('q')
     print(q)
     return render(request, 'web/search_result.html', locals())
