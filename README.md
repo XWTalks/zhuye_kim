@@ -14,7 +14,7 @@ Centos7系统安装Python3可以参考文章：http://blog.51cto.com/wenguonides
 
 ```bash
 yum install git screen -y
-pip3 install django pymysql
+pip3 install django pymysql pillow
 ```
 
 - 安装mysql/mariadb，新建数据库名为zhuye
