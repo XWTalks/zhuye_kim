@@ -12,8 +12,10 @@
 
 Centos7系统可以参考文章：http://blog.51cto.com/wenguonideshou/2083301
 
+```bash
 yum install git screen -y
 pip3 install django pymysql
+```
 
 - 下载源码、建表
 
