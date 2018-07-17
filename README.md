@@ -1,7 +1,7 @@
 # zhuye_kim
 仿zhuye.kim的简单导航程序
 
-演示地址：http://118.25.14.156/
+演示地址：http://118.25.14.156:8080
 
 [![20180716212904.png](https://i.loli.net/2018/07/16/5b4c9efbf04ca.png)](https://i.loli.net/2018/07/16/5b4c9efbf04ca.png)
 
