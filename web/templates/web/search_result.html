@@ -67,7 +67,7 @@
         window.jQuery || document.write("<script src='{% static "js/jquery-3.1.1.min.js" %}' type='text/javascript'>"+"<"+"/script>");
         </script>
 		<![endif]-->
-		<script type="text/javascript">var baidu_search_url='https://www.baidu.com/s',haosou_search_url='https://www.so.com/s',bing_search_url='https://www.bing.com/search',google_search_url='https://www.google.com/search',sogou_search_url='https://www.sogou.com/web',q='python',t='baidu';document.getElementById('meta-search-input').value=decodeURIComponent(q);document.write("<script src='{% static "js/meta-search-min.js" %}?_rd="+Math.random()+"'><\/script>");</script>
+		<script type="text/javascript">var baidu_search_url='https://www.baidu.com/s',haosou_search_url='https://www.so.com/s',bing_search_url='https://www.bing.com/search',google_search_url='https://www.google.com/search',sogou_search_url='https://www.sogou.com/web',q={{q}},t='baidu';document.getElementById('meta-search-input').value=decodeURIComponent(q);document.write("<script src='{% static "js/meta-search-min.js" %}?_rd="+Math.random()+"'><\/script>");</script>
 
 	</body>
 </html>
