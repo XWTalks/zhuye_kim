@@ -12,7 +12,7 @@ class SiteAdmin(admin.ModelAdmin):
     list_display = ['name', 'desc', 'smallcategory', 'category', 'image_url', 'true_url', 'created_time']
     search_fields = ('name',)
     date_hierarchy = 'created_time'
-    ordering = ['created_time']
+    ordering = ['id']
 
     # 显示是否国内
     def category(self, obj):
@@ -30,7 +30,7 @@ class SmallCategoryAdmin(admin.ModelAdmin):
     list_filter = ('category',)
     search_fields = ('name',)
     date_hierarchy = 'created_time'
-    ordering = ['created_time']
+    ordering = ['id']
     inlines = [SiteInline]
 
     # 显示是否国内
@@ -44,7 +44,7 @@ class CategoryAdmin(admin.ModelAdmin):
     list_display = ['name', 'guonei', 'created_time']
     search_fields = ('name',)
     date_hierarchy = 'created_time'
-    ordering = ['-created_time']
+    ordering = ['id']
     inlines = [SmallCategoryInline]
 
 
