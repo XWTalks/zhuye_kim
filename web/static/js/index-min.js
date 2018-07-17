@@ -131,7 +131,7 @@ var searchEngineLogoBox = $(".search-engine .search-logo"),
             baidu: "baidu",
             google: "google"
         },
-        isMetaSearch: !0,
+        isMetaSearch: 0,
         isOverInSearchBtn: !1,
         isOverInMetaSearchBtn: !1,
         isOverInSearchLogo: !1,
