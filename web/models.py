@@ -14,7 +14,7 @@ class Category(models.Model):
     class Meta:
         verbose_name = '大分类'
         verbose_name_plural = verbose_name
-        ordering = ['created_time']
+        ordering = ['id']
 
 
 class SmallCategory(models.Model):
@@ -28,7 +28,7 @@ class SmallCategory(models.Model):
     class Meta:
         verbose_name = '小分类'
         verbose_name_plural = verbose_name
-        ordering = ['created_time']
+        ordering = ['id']
 
 
 class Site(models.Model):
@@ -47,5 +47,5 @@ class Site(models.Model):
     class Meta:
         verbose_name = '站点'
         verbose_name_plural = verbose_name
-        ordering = ['created_time']
+        ordering = ['id']
 
