@@ -6,7 +6,7 @@ admin.site.site_header = '管理系统'
 
 class SiteInline(admin.TabularInline):
     model = Site
-
+    extra = 6
 
 class SiteAdmin(admin.ModelAdmin):
     list_display = ['name', 'desc', 'smallcategory', 'category', 'image_url', 'true_url', 'created_time']
