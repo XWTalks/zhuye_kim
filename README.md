@@ -35,7 +35,7 @@ python3 manage.py migrate
 - 运行网站
 ```bash
 screen -S zhuye
-python3 manage.py runserver 127.0.0.1:8000
+python3 manage.py runserver 127.0.0.1:8001
 ```
 Nginx反向代理
 
