@@ -30,7 +30,3 @@ def sitelist(request):
     return response
 
 
-def search(request):
-    q = request.GET.get('q')
-    print(q)
-    return render(request, 'web/search_result.html', locals())
