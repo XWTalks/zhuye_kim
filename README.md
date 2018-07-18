@@ -3,7 +3,9 @@
 
 演示地址：http://118.25.14.156:8080
 
-[![20180716212904.png](https://i.loli.net/2018/07/16/5b4c9efbf04ca.png)](https://i.loli.net/2018/07/16/5b4c9efbf04ca.png)
+![zhuye.kim(1).png](https://www.moerats.com/usr/picture/zhuye.kim(1).png)
+
+![zhuye.kim(2).png](https://www.moerats.com/usr/picture/zhuye.kim(2).png)
 
 #### 使用说明 ####
 
