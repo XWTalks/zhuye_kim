@@ -35,7 +35,7 @@ python3 manage.py migrate
 - 运行网站
 ```bash
 screen -S zhuye
--python3 manage.py runserver 127.0.0.1:8001
+python3 manage.py runserver 127.0.0.1:8001
  ```
  	 
 - Nginx反向代理	+后台地址为http://ip/admin，管理员用户名admin密码12345678@
