@@ -181,21 +181,21 @@ var searchEngineLogoBox = $(".search-engine .search-logo"),
                         a.get_google_search_hint_list(b, d, "firefox")
             }
         },
-        get_baidu_search_hint_list: function (d, b) {
-            a.search_keyword = b;
-            var c = {
-                cb: a.gen_search_hint_callback(),
-                wd: b,
-                _rd: (new Date).getTime()
-            };
+        get_baidu_search_hint_list: function(d, b) {
+            var sugurl = "http://suggestion.baidu.com/su?wd=" + b;
 
-        },
-        get_baidu_search_hint_list_callback: function (d) {
-            d = eval(d);
-            "undefined" == typeof d && (d = {
-                s: []
-            });
-            a.handle_search_hint_list(d.s)
+                //定义回调函数
+                window.baidu = {
+                    sug: function(d) {
+                         a.handle_search_hint_list(d.s)
+                    }
+                }
+
+                //动态添加JS脚本
+                var script = document.createElement("script");
+                script.src = sugurl;
+                document.getElementsByTagName("head")[0].appendChild(script);
+
         },
         get_haosou_search_hint_list: function (d, b) {
             a.search_keyword = b;
