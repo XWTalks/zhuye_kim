@@ -40,7 +40,7 @@ screen -S zhuye
 python3 manage.py runserver 127.0.0.1:8001
  ```
  	 
-- Nginx反向代理	+后台地址为http://ip/admin，管理员用户名admin密码12345678@
+- Nginx反向代理
 
 ![反向代理.png](https://i.loli.net/2018/07/17/5b4df8524ab67.png)	
 
